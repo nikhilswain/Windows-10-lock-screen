@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Windows 10</title>
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+  </head>
+  <body>
+    <!-- wrapper will have the transtion of going up and then 2nd wrapper will be displayed -->
+    <div class="wrapper" id="wrapper">
+      <div class="container-left">
+        <div class="current-time" id="clock">
+          <!-- show current time via js -->
+        </div>
+        <div class="date" id="date">
+          <!-- show current day, month date in respectice order -->
+        </div>
+      </div>
+      <div class="container-right">
+        <div class="widget">
+          <div class="wifi">
+            <!-- wifi logg -->
+            <img src="/img/wifi.png" alt="wifilogo" />
+          </div>
+          <div class="battery">
+            <!-- charging logo -->
+            <img src="/img/battery.png" alt="bateryRemaining" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- wrapper 2 for the form login -->
+    <div class="wrapper2" id="wrapper2">
+      <div class="form-content">
+        <form class="midform">
+          <div class="user-avatar">
+            <img src="/img/avatar.png" alt="Avatar" />
+          </div>
+          <div class="system-name">
+            <h3>Lenovo</h3>
+          </div>
+          <div class="input-password">
+            <input type="password" id="password" placeholder="Password" />
+            <button><img src="/img/arrow.png" alt="-->" /></button>
+          </div>
+        </form>
+      </div>
+      <div class="widget">
+        <div class="wifi">
+          <!-- wifi logg -->
+          <img src="/img/wifi.png" alt="wifilogo" />
+        </div>
+        <div class="timer">
+          <!-- wifi logg -->
+          <img src="/img/timer.png" alt="Timer" />
+        </div>
+        <div class="battery">
+          <!-- charging logo -->
+          <img src="/img/battery.png" alt="bateryRemaining" />
+        </div>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
